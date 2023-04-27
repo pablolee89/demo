@@ -1,279 +1,102 @@
 {
-  "sku": {
-      "items": [
-          {
-              "product-rate-plan-sku": "test_UpgradeAnnual_Exp2_Web",
-              "name": "12 Month",
-              "value": "Annually",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "12.50",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "149.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              }
+  "sku": {  
+    "items": [
+      {
+        "product-rate-plan-sku": "tech_play_web_allaccess_12mo",
+        "name": "12 Month",
+        "value": "Annually",
+        "benefit": "",
+        "feature": "",
+        "free-trial-days": 14,
+        "monthly-cost": {
+            "price": "12.50",
+            "currency": "USD",
+            "symbol": "$"
+        },
+        "pricing": {
+            "price": "149.99",
+            "currency": "USD",
+            "symbol": "$"
+        }
+      },
+      {
+          "product-rate-plan-sku": "tech_web_allaccess_1mo",
+          "name": "Monthly",
+          "value": "Monthly",
+          "benefit": "",
+          "feature": "",
+          "free-trial-days": 7,
+          "monthly-cost": {
+              "price": "19.99",
+              "currency": "USD",
+              "symbol": "$"
           },
-          {
-              "product-rate-plan-sku": "test_UpgradeMonthly_Exp2_Web",
-              "name": "Monthly",
-              "value": "Monthly",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "19.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "19.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              }
-          },
-          {
-              "product-rate-plan-sku": "test_ResubAnnual_Exp2_Web",
-              "name": "12 Month",
-              "value": "Annually",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "12.50",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "149.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              }
-          },
-          {
-              "product-rate-plan-sku": "test_ResubMonthly_Exp2_Web",
-              "name": "Monthly",
-              "value": "Monthly",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "19.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "19.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              }
-          },
-          {
-              "product-rate-plan-sku": "valid_play_web_allaccess_12mo",
-              "name": "12 Month",
-              "value": "Annually",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 14,
-              "monthly-cost": {
-                  "price": "12.50",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "149.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              }
-          },
-          {
-              "product-rate-plan-sku": "tech_web_allaccess_1mo",
-              "name": "Monthly",
-              "value": "Monthly",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 7,
-              "monthly-cost": {
-                  "price": "19.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "19.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              }
-          },
-          {
-              "product-rate-plan-sku": "tech_web_allaccess_12mo_acoustic01",
-              "name": "12 Month",
-              "value": "Annually",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "12.50",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "149.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              }
-          },
-          {
-              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle01",
-              "name": "12 Month",
-              "value": "Annually",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "12.50",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "149.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "one-time-fee": {
-                  "price": "86.00",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing-discount": {
-                  "price": "",
-                  "currency": "USD",
-                  "symbol": "$",
-                  "discount-amount": "86.00"
-              }
-          },
-          {
-              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle02",
-              "name": "12 Month",
-              "value": "Annually",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "12.50",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "149.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "one-time-fee": {
-                  "price": "75.00",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing-discount": {
-                  "price": "",
-                  "currency": "USD",
-                  "symbol": "$",
-                  "discount-amount": "75.00"
-              }
-          },
-          {
-              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle03",
-              "name": "12 Month",
-              "value": "Annually",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "12.50",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "149.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "one-time-fee": {
-                  "price": "109.00",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing-discount": {
-                  "price": "",
-                  "currency": "USD",
-                  "symbol": "$",
-                  "discount-amount": "59.00"
-              }
-          },
-          {
-              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle04",
-              "name": "12 Month",
-              "value": "Annually",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "12.50",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "149.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "one-time-fee": {
-                  "price": "86.00",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing-discount": {
-                  "price": "",
-                  "currency": "USD",
-                  "symbol": "$",
-                  "discount-amount": "86.00"
-              }
-          },
-          {
-              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle05",
-              "name": "12 Month",
-              "value": "Annually",
-              "benefit": "",
-              "feature": "",
-              "free-trial-days": 0,
-              "monthly-cost": {
-                  "price": "12.50",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing": {
-                  "price": "149.99",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "one-time-fee": {
-                  "price": "86.00",
-                  "currency": "USD",
-                  "symbol": "$"
-              },
-              "pricing-discount": {
-                  "price": "",
-                  "currency": "USD",
-                  "symbol": "$",
-                  "discount-amount": "86.00"
-              }
+          "pricing": {
+              "price": "19.99",
+              "currency": "USD",
+              "symbol": "$"
           }
-      ],
-      "meta": null
+      },
+      {
+          "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle04",
+          "name": "12 Month",
+          "value": "Annually",
+          "benefit": "",
+          "feature": "",
+          "free-trial-days": 0,
+          "monthly-cost": {
+              "price": "12.50",
+              "currency": "USD",
+              "symbol": "$"
+          },
+          "pricing": {
+              "price": "149.99",
+              "currency": "USD",
+              "symbol": "$"
+          },
+          "one-time-fee": {
+              "price": "86.00",
+              "currency": "USD",
+              "symbol": "$"
+          },
+          "pricing-discount": {
+              "price": "",
+              "currency": "USD",
+              "symbol": "$",
+              "discount-amount": "86.00"
+          }
+      },
+      {
+          "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle05",
+          "name": "12 Month",
+          "value": "Annually",
+          "benefit": "",
+          "feature": "",
+          "free-trial-days": 0,
+          "monthly-cost": {
+              "price": "12.50",
+              "currency": "USD",
+              "symbol": "$"
+          },
+          "pricing": {
+              "price": "149.99",
+              "currency": "USD",
+              "symbol": "$"
+          },
+          "one-time-fee": {
+              "price": "86.00",
+              "currency": "USD",
+              "symbol": "$"
+          },
+          "pricing-discount": {
+              "price": "",
+              "currency": "USD",
+              "symbol": "$",
+              "discount-amount": "86.00"
+          }
+      }
+    ],
+    "meta": null
   },
   "bundlesConfig": {
     "play_web_allaccess_12mo_acoustic01": {
@@ -312,7 +135,7 @@
         "title": "bundle 04",
         "desc-short": "Includes accesories",
         "shop-sku": "12412342",
-        "enabled": true,
+        "enabled": false,
         "image-url": "",
         "more-details-url": ""
     },
