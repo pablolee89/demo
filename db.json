@@ -1,13 +1,575 @@
 {
-  "posts": [
-    { "id": 1, "title": "testing 1" },
-    { "id": 2, "title": "test 2" },
-    { "id": 3, "title": "testicles" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+  "sku": {
+      "items": [
+          {
+              "product-rate-plan-sku": "test_SpecialOfferMonthly_Web",
+              "name": "Monthly",
+              "value": "Monthly",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 7,
+              "monthly-cost": {
+                  "price": "7.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "7.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_UpgradeMonthly_Exp_Web",
+              "name": "Monthly",
+              "value": "Monthly",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "14.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "14.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_ResubMonthly_Exp_Web",
+              "name": "Monthly",
+              "value": "Monthly",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "14.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "14.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_SpecialOfferAnnual_Exp_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 14,
+              "monthly-cost": {
+                  "price": "8.33",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "99.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_UpgradeAnnual_Exp_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "8.33",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "99.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_ResubAnnual_Exp_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "8.33",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "99.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_LastChanceAnnual_Exp_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "8.33",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "99.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_LastChanceMonthly_Web",
+              "name": "Monthly",
+              "value": "Monthly",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "9.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "9.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_Micro01Annual_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "7.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "89.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "one-time-fee": {
+                  "price": "74.00",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing-discount": {
+                  "price": "",
+                  "currency": "USD",
+                  "symbol": "$",
+                  "discount-amount": "34.00"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_StartAnnual_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "3.75",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "44.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_SpecialOfferAnnual_NT_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "8.33",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "99.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test+SpecialOfferAnnual_Exp2_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 14,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_LastChanceAnnual_Exp2_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_UpgradeAnnual_Exp2_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_UpgradeMonthly_Exp2_Web",
+              "name": "Monthly",
+              "value": "Monthly",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "19.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "19.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_ResubAnnual_Exp2_Web",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "test_ResubMonthly_Exp2_Web",
+              "name": "Monthly",
+              "value": "Monthly",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "19.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "19.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "valid_play_web_allaccess_12mo",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 14,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "tech_web_allaccess_1mo",
+              "name": "Monthly",
+              "value": "Monthly",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 7,
+              "monthly-cost": {
+                  "price": "19.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "19.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "tech_web_allaccess_12mo_acoustic01",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              }
+          },
+          {
+              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle01",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "one-time-fee": {
+                  "price": "86.00",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing-discount": {
+                  "price": "",
+                  "currency": "USD",
+                  "symbol": "$",
+                  "discount-amount": "86.00"
+              }
+          },
+          {
+              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle02",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "one-time-fee": {
+                  "price": "75.00",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing-discount": {
+                  "price": "",
+                  "currency": "USD",
+                  "symbol": "$",
+                  "discount-amount": "75.00"
+              }
+          },
+          {
+              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle03",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "one-time-fee": {
+                  "price": "109.00",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing-discount": {
+                  "price": "",
+                  "currency": "USD",
+                  "symbol": "$",
+                  "discount-amount": "59.00"
+              }
+          },
+          {
+              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle04",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "one-time-fee": {
+                  "price": "86.00",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing-discount": {
+                  "price": "",
+                  "currency": "USD",
+                  "symbol": "$",
+                  "discount-amount": "86.00"
+              }
+          },
+          {
+              "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle05",
+              "name": "12 Month",
+              "value": "Annually",
+              "benefit": "",
+              "feature": "",
+              "free-trial-days": 0,
+              "monthly-cost": {
+                  "price": "12.50",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing": {
+                  "price": "149.99",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "one-time-fee": {
+                  "price": "86.00",
+                  "currency": "USD",
+                  "symbol": "$"
+              },
+              "pricing-discount": {
+                  "price": "",
+                  "currency": "USD",
+                  "symbol": "$",
+                  "discount-amount": "86.00"
+              }
+          }
+      ],
+      "meta": null
+  },
+  "bundlesConfig": {
+    "play_web_allaccess_12mo_acoustic01": {
+        "title": "Legacy Bundle",
+        "desc-short": "",
+        "shop-sku": "",
+        "enabled": false,
+        "image-url": "",
+        "more-details-url": ""
+    },
+    "play_web_allaccess_12mo_bundle01": {
+        "title": "bundle 01",
+        "desc-short": "",
+        "shop-sku": "43214",
+        "enabled": false,
+        "image-url": "",
+        "more-details-url": ""
+    },
+    "play_web_allaccess_12mo_bundle02": {
+        "title": "bundle 02",
+        "desc-short": "",
+        "shop-sku": "41234124",
+        "enabled": false,
+        "image-url": "",
+        "more-details-url": ""
+    },
+    "play_web_allaccess_12mo_bundle03": {
+        "title": "bundle 03",
+        "desc-short": "",
+        "shop-sku": "1241234",
+        "enabled": false,
+        "image-url": "",
+        "more-details-url": ""
+    },
+    "play_web_allaccess_12mo_bundle04": {
+        "title": "bundle 04",
+        "desc-short": "Includes accesories",
+        "shop-sku": "12412342",
+        "enabled": true,
+        "image-url": "",
+        "more-details-url": ""
+    },
+    "play_web_allaccess_12mo_bundle05": {
+        "title": "bundle 05",
+        "desc-short": "Includes  accesories",
+        "shop-sku": "123411256",
+        "enabled": true,
+        "image-url": "",
+        "more-details-url": ""
+    }
+},
   "profile": {
     "name": "typicode"
   }
