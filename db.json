@@ -99,7 +99,7 @@
     "meta": null
   },
   "bundlesConfig": {
-    "play_web_allaccess_12mo_acoustic01": {
+    "tech_web_allaccess_12mo_acoustic01": {
         "title": "Legacy Bundle",
         "desc-short": "",
         "shop-sku": "",
@@ -107,7 +107,7 @@
         "image-url": "",
         "more-details-url": ""
     },
-    "play_web_allaccess_12mo_bundle01": {
+    "tech_web_allaccess_12mo_bundle01": {
         "title": "bundle 01",
         "desc-short": "",
         "shop-sku": "43214",
@@ -115,7 +115,7 @@
         "image-url": "",
         "more-details-url": ""
     },
-    "play_web_allaccess_12mo_bundle02": {
+    "tech_web_allaccess_12mo_bundle02": {
         "title": "bundle 02",
         "desc-short": "",
         "shop-sku": "41234124",
@@ -123,7 +123,7 @@
         "image-url": "",
         "more-details-url": ""
     },
-    "play_web_allaccess_12mo_bundle03": {
+    "tech_web_allaccess_12mo_bundle03": {
         "title": "bundle 03",
         "desc-short": "",
         "shop-sku": "1241234",
@@ -131,7 +131,7 @@
         "image-url": "",
         "more-details-url": ""
     },
-    "play_web_allaccess_12mo_bundle04": {
+    "tech_web_allaccess_12mo_bundle04": {
         "title": "bundle 04",
         "desc-short": "Includes accesories",
         "shop-sku": "12412342",
@@ -139,12 +139,12 @@
         "image-url": "",
         "more-details-url": ""
     },
-    "play_web_allaccess_12mo_bundle05": {
+    "tech_web_allaccess_12mo_bundle05": {
         "title": "bundle 05",
         "desc-short": "Includes  accesories",
         "shop-sku": "123411256",
         "enabled": true,
-        "image-url": "",
+        "image-url": "https://w7.pngwing.com/pngs/952/687/png-transparent-round-pizza-with-toppings-pizza-calzone-italian-cuisine-dish-mozzarella-pizza-food-recipe-pizza-delivery.png",
         "more-details-url": ""
     }
 },
