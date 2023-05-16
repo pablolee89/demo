@@ -3,7 +3,7 @@
     "items": [
       {
         "product-rate-plan-sku": "digital_12mo",
-        "name": "12 Month",
+        "name": "Digital 12 month subscription",
         "value": "Annually",
         "benefit": "",
         "feature": "",
@@ -21,7 +21,7 @@
       },
       {
           "product-rate-plan-sku": "digital_1mo",
-          "name": "Monthly",
+          "name": "Digital monthly subscription",
           "value": "Monthly",
           "benefit": "",
           "feature": "",
@@ -39,7 +39,7 @@
       },
       {
           "product-rate-plan-sku": "digital_bundle_04",
-          "name": "12 Month",
+          "name": "Digital 12 month + accessories subscription",
           "value": "Annually",
           "benefit": "",
           "feature": "",
@@ -68,7 +68,7 @@
       },
       {
           "product-rate-plan-sku": "digital_bundle_05",
-          "name": "12 Month",
+          "name": "Digital 12 month + accessories + vip access subscription",
           "value": "Annually",
           "benefit": "",
           "feature": "",
@@ -142,7 +142,7 @@
     "digital_bundle_05": {
         "enabled": true,
         "title": "bundle 05",
-        "desc-short": "Includes  accesories",
+        "desc-short": "Includes  accesories + vip access",
         "shop-sku": "123411256",
         "image-url": "https://w7.pngwing.com/pngs/952/687/png-transparent-round-pizza-with-toppings-pizza-calzone-italian-cuisine-dish-mozzarella-pizza-food-recipe-pizza-delivery.png",
         "more-details-url": ""
