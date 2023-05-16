@@ -2,7 +2,7 @@
   "sku": {  
     "items": [
       {
-        "product-rate-plan-sku": "tech_play_web_allaccess_12mo",
+        "product-rate-plan-sku": "digital_12mo",
         "name": "12 Month",
         "value": "Annually",
         "benefit": "",
@@ -20,7 +20,7 @@
         }
       },
       {
-          "product-rate-plan-sku": "tech_web_allaccess_1mo",
+          "product-rate-plan-sku": "digital_1mo",
           "name": "Monthly",
           "value": "Monthly",
           "benefit": "",
@@ -38,7 +38,7 @@
           }
       },
       {
-          "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle04",
+          "product-rate-plan-sku": "digital_bundle_04",
           "name": "12 Month",
           "value": "Annually",
           "benefit": "",
@@ -67,7 +67,7 @@
           }
       },
       {
-          "product-rate-plan-sku": "tech_web_allaccess_12mo_bundle05",
+          "product-rate-plan-sku": "digital_bundle_05",
           "name": "12 Month",
           "value": "Annually",
           "benefit": "",
@@ -99,51 +99,51 @@
     "meta": null
   },
   "bundlesConfig": {
-    "tech_web_allaccess_12mo_acoustic01": {
+    "digital_bundle_acoustic": {
+        "enabled": false,
         "title": "Legacy Bundle",
         "desc-short": "",
         "shop-sku": "",
-        "enabled": false,
         "image-url": "",
         "more-details-url": ""
     },
-    "tech_web_allaccess_12mo_bundle01": {
+    "digital_bundle_01": {
+        "enabled": false,
         "title": "bundle 01",
         "desc-short": "",
         "shop-sku": "43214",
-        "enabled": false,
         "image-url": "",
         "more-details-url": ""
     },
-    "tech_web_allaccess_12mo_bundle02": {
+    "digital_bundle_02": {
+        "enabled": false,
         "title": "bundle 02",
         "desc-short": "",
         "shop-sku": "41234124",
-        "enabled": false,
         "image-url": "",
         "more-details-url": ""
     },
-    "tech_web_allaccess_12mo_bundle03": {
+    "digital_bundle_03": {
+        "enabled": false,
         "title": "bundle 03",
         "desc-short": "",
         "shop-sku": "1241234",
-        "enabled": false,
         "image-url": "",
         "more-details-url": ""
     },
-    "tech_web_allaccess_12mo_bundle04": {
+    "digital_bundle_04": {
+        "enabled": false,
         "title": "bundle 04",
         "desc-short": "Includes accesories",
         "shop-sku": "12412342",
-        "enabled": false,
-        "image-url": "",
+        "image-url": "https://png.pngtree.com/png-clipart/20190516/original/pngtree-healthy-food-png-image_3776802.jpg",
         "more-details-url": ""
     },
-    "tech_web_allaccess_12mo_bundle05": {
+    "digital_bundle_05": {
+        "enabled": true,
         "title": "bundle 05",
         "desc-short": "Includes  accesories",
         "shop-sku": "123411256",
-        "enabled": true,
         "image-url": "https://w7.pngwing.com/pngs/952/687/png-transparent-round-pizza-with-toppings-pizza-calzone-italian-cuisine-dish-mozzarella-pizza-food-recipe-pizza-delivery.png",
         "more-details-url": ""
     }
